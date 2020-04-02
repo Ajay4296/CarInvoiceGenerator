@@ -36,7 +36,12 @@ namespace TestCabInvoiceGenerator
         [Test]
         public void AverageFareOfTotalRide()
         {
-
+            InvoiceGenerator obj = new InvoiceGenerator();
+            double[] distanceInKm = { 3, 6, 7.5 };
+            double[] timeInMinute = { 5, 18.5, 12 };
+            double Actual = obj.AverageFareForEachRides(distanceInKm, timeInMinute);
+            double Expected = 200.5 / 3;
+            Assert.AreEqual(Actual, Expected);
         }
     }
 }

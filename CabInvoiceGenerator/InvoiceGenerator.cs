@@ -35,11 +35,9 @@ namespace CabInvoiceGenerator
         {
             return distance.Length;
         }
-        public double AverageFareForEachRides(InvoiceGenerator[] rides)
+        public double AverageFareForEachRides(double[] distanceInKm,double[] timeInMinute)
         {
            InvoiceGenerator obj = new InvoiceGenerator();
-            double[] distanceInKm = { 3, 6, 7.5 };
-            double[] timeInMinute = { 5, 18.5, 12 };
             double Totalfare = obj.TotalFareCalculator(distanceInKm,timeInMinute);
             double NoOfRides = obj.Number_of_Ride(distanceInKm);
             double AvgFare = Totalfare / NoOfRides;
