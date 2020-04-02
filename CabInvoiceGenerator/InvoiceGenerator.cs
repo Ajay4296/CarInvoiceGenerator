@@ -43,8 +43,30 @@ namespace CabInvoiceGenerator
             double AvgFare = Totalfare / NoOfRides;
             return AvgFare;
         }
+        public double totalFare(Ride[] rides)
+        {
+            double TotalFare = 0;
+            InvoiceGenerator obj1 = new InvoiceGenerator();
+            foreach (Ride ride in rides)
+            {
+                TotalFare += obj1.Calculator(11,30);
+            }
+            return TotalFare;
+        }
 
-
+        public double GetInvoiceSummary(Customer User_Id)
+        {
+            double Total_fare = 0;
+            InvoiceGenerator obj = new InvoiceGenerator();
+            foreach (KeyValuePair<Customer, List<Ride>> keyvalues in RideRepository.RideDictionary)
+            {
+                if (User_Id == keyvalues.Key)
+                {
+                    Total_fare = obj.totalFare(keyvalues.Value.ToArray());
+                }
+            }
+            return Total_fare;
+        }
     }
 
 }

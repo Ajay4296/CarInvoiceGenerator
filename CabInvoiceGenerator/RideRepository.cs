@@ -1,21 +1,20 @@
-﻿/*using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Text;
 
 namespace CabInvoiceGenerator
 {
-    class RideRepository
+  public class RideRepository
     {
-        public static Dictionary<Custmor, List<Ride>> RideDictionary = null;
+        public static Dictionary<Customer, List<Ride>> RideDictionary = null;
         public RideRepository()
         {
-            RideDictionary = new Dictionary<Custmor, List<Ride>>();
+            RideDictionary = new Dictionary<Customer, List<Ride>>();
         }
 
-        public void AddRide(List<Ride> rides, Custmor custmorId)
+        public void AddRide(List<Ride> rides, Customer custmorId)
         {
             RideDictionary.Add(custmorId, rides);
         }
     }
 }
-*/
