@@ -14,7 +14,7 @@ namespace Quantity_Measurement
         }
         public override bool Equals(object obj)
         {
-            if (obj == null)
+            if (obj == null || this.GetType().Equals(obj.GetType()))
                 return true;
             return false;
         }
