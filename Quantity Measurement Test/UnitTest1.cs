@@ -88,6 +88,40 @@ namespace Quantity_Measurement_Test
             Quantity inch = new Quantity(5.5);
             Assert.AreEqual(inch.EqualityInchCheck(5.5), true);
         }
-
+        [Test]
+        public void ConvertFitAndInch()
+        {
+            ConversionOfQuantity obj = new ConversionOfQuantity();
+            int feet = 0;
+            int inch = 0;
+            bool Actual = obj.ConvertFeetAndInch(feet, inch);
+            Assert.AreEqual(Actual, true);
+        }
+        [Test]
+        public void ConvertFitAndInch1()
+        {
+            ConversionOfQuantity obj = new ConversionOfQuantity();
+            int feet = 1;
+            int inch = 1;
+            bool Actual = obj.ConvertFeetAndInch(feet, inch);
+            Assert.AreEqual(Actual,false);
+        }
+        [Test]
+        public void ConvertFeetToInch1()
+        {
+            ConversionOfQuantity obj = new ConversionOfQuantity();
+            int feet = 1;
+            bool Actual = obj.ConvertFeetAndInch(feet);
+            Assert.AreEqual(Actual, true);
+        }
+        [Test]
+        public void ConvertInchToFeet1()
+        {
+            ConversionOfQuantity obj = new ConversionOfQuantity();
+            int feet = 0;
+            int inch = 12;
+            bool Actual = obj.ConvertFeetAndInch(feet,inch);
+            Assert.AreEqual(Actual, true);
+        }
     }
 }
