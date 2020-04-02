@@ -7,28 +7,28 @@ namespace Quantity_Measurement_Test
         [Test]
         public void Check_Equlity_Test()
         {
-            Feet feet = new Feet(0);
+            Quantity feet = new Quantity(0);
            bool Expected= feet.EqualityCheck(0);
             Assert.IsTrue(Expected);
         }
         [Test]
         public void Check_Null_Test()
         {
-            Feet feet = new Feet(0);
+            Quantity feet = new Quantity(0);
             bool Expected = feet.Equals(null);
             Assert.IsTrue(Expected);
         }
         [Test]
         public void Check_Reference_Test()
         {
-            Feet feet = new Feet(0);
+            Quantity feet = new Quantity(0);
             bool Expected = feet.Equals(feet);
             Assert.AreEqual(Expected,true);
         }
         [Test]
         public void Check_Type_()
         {
-            Feet feet = new Feet(0);
+            Quantity feet = new Quantity(0);
             bool Expected = feet.Equals(feet);
             Assert.AreEqual(Expected, true);
         }
@@ -36,15 +36,57 @@ namespace Quantity_Measurement_Test
         [Test]
         public void Test_Feet_Value()
         {
-            Feet feet = new Feet(10);
+            Quantity feet = new Quantity(10);
             Assert.AreEqual(feet.EqualityCheck(10), true);
         }
 
         [Test]
         public void Test_Feet_Value1()
         {
-            Feet feet = new Feet(5.5);
+            Quantity feet = new Quantity(5.5);
             Assert.AreEqual(feet.EqualityCheck(5.5), true);
+        }
+        [Test]
+        public void Check_Equlity_Inch()
+        {
+            Quantity inch = new Quantity(0);
+            bool Expected = inch.EqualityCheck(0);
+            Assert.IsTrue(Expected);
+        }
+        [Test]
+        public void Check_Null_Inch_value()
+        {
+            Quantity inch = new Quantity(0);
+            bool Expected = inch.Equals(null);
+            Assert.IsTrue(Expected);
+        }
+        [Test]
+        public void Check_Reference_of_quantity()
+        {
+            Quantity inch = new Quantity(0);
+            bool Expected = inch.Equals(inch);
+            Assert.AreEqual(Expected, true);
+        }
+        [Test]
+        public void Check_Type_of_Quantity()
+        {
+            Quantity inch = new Quantity(0);
+            bool Expected = inch.Equals(inch);
+            Assert.AreEqual(Expected, true);
+        }
+
+        [Test]
+        public void Test_Feet_Value_int()
+        {
+            Quantity inch = new Quantity(10);
+            Assert.AreEqual(inch.EqualityInchCheck(10), true);
+        }
+
+        [Test]
+        public void Test_Feet_Value1_double ()
+        {
+            Quantity inch = new Quantity(5.5);
+            Assert.AreEqual(inch.EqualityInchCheck(5.5), true);
         }
 
     }

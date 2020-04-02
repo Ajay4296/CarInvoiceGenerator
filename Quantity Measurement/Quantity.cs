@@ -4,14 +4,20 @@ using System.Text;
 
 namespace Quantity_Measurement
 {
-   public class Feet
+   public class Quantity
     {
         public double value { get; set; }
-        public Feet(double value)
+        public Quantity(double value)
         {
             this.value = value;
         }
         public bool EqualityCheck(double value)
+        {
+            if (this.value == value)
+                return true;
+            return false;
+        }
+        public bool EqualityInchCheck(double value)
         {
             if (this.value == value)
                 return true;
