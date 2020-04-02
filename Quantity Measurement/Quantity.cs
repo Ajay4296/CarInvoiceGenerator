@@ -6,9 +6,14 @@ namespace Quantity_Measurement
 {
    public class Feet
     {
-        public bool EqualityCheck(int value)
+        public double value { get; set; }
+        public Feet(double value)
         {
-            if (value == 0)
+            this.value = value;
+        }
+        public bool EqualityCheck(double value)
+        {
+            if (this.value == value)
                 return true;
             return false;
         }
