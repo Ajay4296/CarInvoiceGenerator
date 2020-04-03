@@ -204,8 +204,16 @@ namespace Quantity_Measurement_Test
         public void Check_Equality_Of_Celsius1()
         {
             int Celcius = 1;
-            ConversionOfGramAndKG obj = new ConversionOfGramAndKG(Celcius);
-            Assert.AreEqual(obj.CheckGmValue(2), false);
+            Temperature obj = new Temperature(Celcius);
+            Assert.AreEqual(obj.ChechTempreture(2), false);
+        }
+        [Test]
+        public void Check_Conversion_of_Temprature()
+        {
+            int Celcius = 1;
+            Temperature obj = new Temperature(Celcius);
+            int cel = 1;
+            Assert.AreEqual(obj.ConversionOfCelciusToFahrenhite(cel), true);
         }
     }
 }
