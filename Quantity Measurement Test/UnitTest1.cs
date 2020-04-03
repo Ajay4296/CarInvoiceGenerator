@@ -4,6 +4,7 @@ namespace Quantity_Measurement_Test
 {
     public class ConvertFeetToInch
     { 
+
         [Test]
         public void Check_Equlity_Test()
         {
@@ -161,6 +162,50 @@ namespace Quantity_Measurement_Test
             int yard = 1;
             int feet = 3;
             Assert.AreEqual(obj.FeetToYArd(feet,yard), feet);
+        }
+       [Test]
+       public void Check_Equality_Of_Gram()
+        {
+            int Gram = 1;
+            ConversionOfGramAndKG obj = new ConversionOfGramAndKG(Gram);
+            Assert.AreEqual(obj.CheckGmValue(Gram), true);
+        }
+        [Test]
+        public void Test_conversion_of_Kg_And_Gram()
+        {
+            ConversionOfGramAndKG obj = new ConversionOfGramAndKG(0);
+            double KG = 2.5;
+            double Gram = 2500;
+            Assert.AreEqual(obj.Equalate_Kg_And_Gm(KG, Gram), true);
+        }
+        [Test]
+        public void Check_Equality_Of_Gram1()
+        {
+            int Gram = 1;
+            ConversionOfGramAndKG obj = new ConversionOfGramAndKG(Gram);
+            Assert.AreEqual(obj.CheckGmValue(2), false);
+        }
+        [Test]
+        public void Test_conversion_of_Kg_And_Gram1()
+        {
+            ConversionOfGramAndKG obj = new ConversionOfGramAndKG(0);
+            double KG = 1;
+            double Gram = 2000;
+            Assert.AreEqual(obj.Equalate_Kg_And_Gm(KG, Gram), false);
+        }
+        [Test]
+        public void Check_Equality_Of_Celsius()
+        {
+            int Celcius = 1;
+            ConversionOfGramAndKG obj = new ConversionOfGramAndKG(Celcius);
+            Assert.AreEqual(obj.CheckGmValue(Celcius), true);
+        }
+        [Test]
+        public void Check_Equality_Of_Celsius1()
+        {
+            int Celcius = 1;
+            ConversionOfGramAndKG obj = new ConversionOfGramAndKG(Celcius);
+            Assert.AreEqual(obj.CheckGmValue(2), false);
         }
     }
 }

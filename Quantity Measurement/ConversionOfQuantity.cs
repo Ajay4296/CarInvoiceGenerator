@@ -6,6 +6,12 @@ namespace Quantity_Measurement
 {
     public class ConversionOfQuantity
     {
+        /// <summary>
+        /// Quantity Measurement
+        /// </summary>
+        /// <param name="feet"></param>
+        /// <param name="inch"></param>
+        /// <returns></returns>
         public bool ConvertFeetAndInch(double feet,double inch=0)
         {
             int inchResult = (int)(feet / 0.0833333333);
@@ -18,6 +24,12 @@ namespace Quantity_Measurement
                 return false;
             return true;
         }
+        /// <summary>
+        /// method to conversion of feet and yard
+        /// </summary>
+        /// <param name="feet"></param>
+        /// <param name="yard"></param>
+        /// <returns></returns>
         public double FeetToYArd(double feet,double yard=0)
         {
             int yardResult = (int)(feet * 0.334);
@@ -28,6 +40,12 @@ namespace Quantity_Measurement
                 return yardResult;
             return 0;
         }
+        /// <summary>
+        /// Equality of foot and yard
+        /// </summary>
+        /// <param name="feet"></param>
+        /// <param name="yard"></param>
+        /// <returns></returns>
         public bool Equality_of_Foot_and_Yard(double feet,double yard)
         {
             int FeetResult = (int)(yard / 0.34);
@@ -36,6 +54,12 @@ namespace Quantity_Measurement
                 return false;
             return true;
         }
+        /// <summary>
+        /// conversion of Inch and yard
+        /// </summary>
+        /// <param name="yard"></param>
+        /// <param name="inch"></param>
+        /// <returns></returns>
         public double InchToYArd(int yard, int inch = 0)
         {
             int inchResult = (yard * 36);
