@@ -15,8 +15,36 @@ namespace Quantity_Measurement
             if (feetResult == 1)
                 return true;
             if(inchResult==feetResult)
-                return true;
-            return false;
+                return false;
+            return true;
+        }
+        public double FeetToYArd(double feet,double yard=0)
+        {
+            int yardResult = (int)(feet * 0.334);
+            int FeetResult = (int)(yard / 0.3333);
+            if (FeetResult == 3)
+                return FeetResult;
+            if (yardResult == 1)
+                return yardResult;
+            return 0;
+        }
+        public bool Equality_of_Foot_and_Yard(double feet,double yard)
+        {
+            int FeetResult = (int)(yard / 0.34);
+            int yardResult = (int)(feet * 0.3334);
+            if (FeetResult == yardResult)
+                return false;
+            return true;
+        }
+        public double InchToYArd(int yard, int inch = 0)
+        {
+            int inchResult = (yard * 36);
+            int yardResult = (inch / 36);
+            if (yardResult == 1)
+                return yardResult;
+            if (inchResult == 36)
+                return inchResult;
+                return 0;
         }
     }
 }

@@ -95,7 +95,7 @@ namespace Quantity_Measurement_Test
             int feet = 0;
             int inch = 0;
             bool Actual = obj.ConvertFeetAndInch(feet, inch);
-            Assert.AreEqual(Actual, true);
+            Assert.AreEqual(Actual, false);
         }
         [Test]
         public void ConvertFitAndInch1()
@@ -104,7 +104,7 @@ namespace Quantity_Measurement_Test
             int feet = 1;
             int inch = 1;
             bool Actual = obj.ConvertFeetAndInch(feet, inch);
-            Assert.AreEqual(Actual,false);
+            Assert.AreEqual(Actual,true);
         }
         [Test]
         public void ConvertFeetToInch1()
@@ -122,6 +122,45 @@ namespace Quantity_Measurement_Test
             int inch = 12;
             bool Actual = obj.ConvertFeetAndInch(feet,inch);
             Assert.AreEqual(Actual, true);
+        }
+        [Test]
+        public void Feet_To_Yard_Conversion_check()
+        {
+            ConversionOfQuantity obj = new ConversionOfQuantity();
+            int feet = 3;
+            Assert.AreEqual(obj.FeetToYArd(feet), 1);
+        }
+        [Test]
+        public void CHeckEqualityOfYArdAndInch()
+        {
+            ConversionOfQuantity obj = new ConversionOfQuantity();
+            int yard = 1;
+            int feet = 1;
+            bool Actual = obj.Equality_of_Foot_and_Yard(feet, yard);
+            Assert.AreEqual(Actual, true);
+        }
+        [Test]
+        public void Inch_To_Yard_Conversion_check()
+        {
+            ConversionOfQuantity obj = new ConversionOfQuantity();
+            int Yard = 1;
+            Assert.AreEqual(obj.InchToYArd(Yard), 36);
+        }
+        [Test]
+        public void Inch_To_Yard_Conversion_check2()
+        {
+            ConversionOfQuantity obj = new ConversionOfQuantity();
+            int inch = 36;
+            int yard = 1;
+            Assert.AreEqual(obj.InchToYArd(yard,inch), yard);
+        }
+        [Test]
+        public void yard_To_feet_Conversion_check()
+        {
+            ConversionOfQuantity obj = new ConversionOfQuantity();
+            int yard = 1;
+            int feet = 3;
+            Assert.AreEqual(obj.FeetToYArd(feet,yard), feet);
         }
     }
 }
