@@ -4,8 +4,10 @@ using System.Text;
 
 namespace Repository
 {
-   public class IWeightRepository
+   public interface IWeightRepository
     {
-
+        double GramToKg(double gm);
+        double KgToGram(double kg);
+       
     }
 }

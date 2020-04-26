@@ -1,0 +1,3 @@
+C:\Measurement\Manager\obj\Debug\netcoreapp2.1\Manager.csproj.CoreCompileInputs.cache
+C:\Measurement\Manager\obj\Debug\netcoreapp2.1\Manager.AssemblyInfoInputs.cache
+C:\Measurement\Manager\obj\Debug\netcoreapp2.1\Manager.AssemblyInfo.cs

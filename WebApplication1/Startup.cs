@@ -10,6 +10,11 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
+using Swashbuckle.AspNetCore.Swagger;
+using Manager;
+using Repository;
+
+
 
 namespace WebApplication1
 {
@@ -26,6 +31,19 @@ namespace WebApplication1
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
+
+            services.AddTransient<ILengthRepository, LengthRepository>();
+            services.AddTransient<ILengthManager, LengthManagerr>();
+            services.AddTransient<IWeightRepository, WeightRepository>();
+            services.AddTransient<IWeightConvertor, WeightConvertor>();
+            services.AddTransient<ITempRepository, TempRepository>();
+            services.AddTransient<ITempConvertor, TempConvertor>();
+
+            services.AddSwaggerGen(c =>
+            {
+                c.SwaggerDoc("v1", new Info { Title = "QuantityMeasurement", Version = "v1" });
+            });
+
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -34,12 +52,17 @@ namespace WebApplication1
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
+                app.UseSwagger();
+                app.UseSwaggerUI(c =>
+                {
+                    c.SwaggerEndpoint("/swagger/v1/swagger.json", "MyAPI V1");
+                });
             }
             else
             {
                 app.UseHsts();
             }
-
+            
             app.UseHttpsRedirection();
             app.UseMvc();
         }

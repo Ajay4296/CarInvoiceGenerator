@@ -4,8 +4,10 @@ using System.Text;
 
 namespace Repository
 {
-   public class ILengthRepository
+   public interface ILengthRepository
     {
+        double FeetToInche(double feet);
 
+        double IncheToFeet(double inch);
     }
 }

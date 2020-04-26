@@ -4,8 +4,11 @@ using System.Text;
 
 namespace Manager
 {
-   public class IWeightManager
+   public interface IWeightManager
     {
+        double KgToGram(double kg);
+
+        double GramToKg(double gram);
 
     }
 }

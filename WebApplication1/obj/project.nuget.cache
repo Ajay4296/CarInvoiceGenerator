@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "88tRk7LXUJwNEBF0diY1+ff9pHMkAKlShdKwjBbAJsrGD4ggKLakd9RBrZ2Js4nklGC3Eq6mIXmgRgj6sA98xA==",
+  "dgSpecHash": "El+rEPsyLyr9CXpDiui9aUA8igQz7j1ZUxf6UOlND95oIWko5+ZO483weA773y4Yuer7Qfy1pZVWl0+PVmQmmg==",
   "success": true,
   "projectFilePath": "C:\\Measurement\\WebApplication1\\WebApplication1.csproj",
   "expectedPackageFiles": [
@@ -193,6 +193,9 @@
     "C:\\Users\\HP\\.nuget\\packages\\runtime.win-arm64.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-arm64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
     "C:\\Users\\HP\\.nuget\\packages\\runtime.win-x64.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-x64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
     "C:\\Users\\HP\\.nuget\\packages\\runtime.win-x86.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-x86.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
+    "C:\\Users\\HP\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\4.0.1\\swashbuckle.aspnetcore.swagger.4.0.1.nupkg.sha512",
+    "C:\\Users\\HP\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\4.0.1\\swashbuckle.aspnetcore.swaggergen.4.0.1.nupkg.sha512",
+    "C:\\Users\\HP\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\4.0.1\\swashbuckle.aspnetcore.swaggerui.4.0.1.nupkg.sha512",
     "C:\\Users\\HP\\.nuget\\packages\\system.appcontext\\4.3.0\\system.appcontext.4.3.0.nupkg.sha512",
     "C:\\Users\\HP\\.nuget\\packages\\system.buffers\\4.5.0\\system.buffers.4.5.0.nupkg.sha512",
     "C:\\Users\\HP\\.nuget\\packages\\system.collections\\4.3.0\\system.collections.4.3.0.nupkg.sha512",
