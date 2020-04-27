@@ -30,14 +30,26 @@ namespace WebApplication1
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddCors(options =>
+            {
+                options.AddPolicy("AllowAll",
+                    builder =>
+                    {
+                        builder
+                        .AllowAnyOrigin()
+                        .AllowAnyMethod()
+                        .AllowAnyHeader()
+                        .AllowCredentials();
+                    });
+            });
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
 
             services.AddTransient<ILengthRepository, LengthRepository>();
-            services.AddTransient<ILengthManager, LengthManagerr>();
+            services.AddTransient<ILengthManager, LengthManager>();
             services.AddTransient<IWeightRepository, WeightRepository>();
-            services.AddTransient<IWeightConvertor, WeightConvertor>();
+            services.AddTransient<IWeightManager, WeightManager>();
             services.AddTransient<ITempRepository, TempRepository>();
-            services.AddTransient<ITempConvertor, TempConvertor>();
+            services.AddTransient<ITempManager, TempManager>();
 
             services.AddSwaggerGen(c =>
             {
@@ -62,7 +74,7 @@ namespace WebApplication1
             {
                 app.UseHsts();
             }
-            
+            app.UseCors("AllowAll");
             app.UseHttpsRedirection();
             app.UseMvc();
         }

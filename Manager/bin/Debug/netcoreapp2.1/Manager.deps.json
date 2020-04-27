@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v2.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v2.1": {
+      "Manager/1.0.0": {
+        "dependencies": {
+          "Repository": "1.0.0"
+        },
+        "runtime": {
+          "Manager.dll": {}
+        }
+      },
+      "Repository/1.0.0": {
+        "runtime": {
+          "Repository.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Manager/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Repository/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

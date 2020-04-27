@@ -7,7 +7,7 @@ namespace Manager
 {
    public class WeightManager : IWeightManager
     {
-        private readonly ITempRepository repo;
+        private readonly IWeightRepository repo;
         public double KgToGram(double kg)
         {
             return repo.KgToGram(kg);

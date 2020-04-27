@@ -1,3 +1,15 @@
+C:\Measurement\Manager\bin\Debug\netcoreapp2.1\Manager.deps.json
+C:\Measurement\Manager\bin\Debug\netcoreapp2.1\Manager.runtimeconfig.json
+C:\Measurement\Manager\bin\Debug\netcoreapp2.1\Manager.runtimeconfig.dev.json
+C:\Measurement\Manager\bin\Debug\netcoreapp2.1\Manager.dll
+C:\Measurement\Manager\bin\Debug\netcoreapp2.1\Manager.pdb
+C:\Measurement\Manager\bin\Debug\netcoreapp2.1\Repository.dll
+C:\Measurement\Manager\bin\Debug\netcoreapp2.1\Repository.pdb
+C:\Measurement\Manager\obj\Debug\netcoreapp2.1\Manager.csprojAssemblyReference.cache
 C:\Measurement\Manager\obj\Debug\netcoreapp2.1\Manager.csproj.CoreCompileInputs.cache
 C:\Measurement\Manager\obj\Debug\netcoreapp2.1\Manager.AssemblyInfoInputs.cache
 C:\Measurement\Manager\obj\Debug\netcoreapp2.1\Manager.AssemblyInfo.cs
+C:\Measurement\Manager\obj\Debug\netcoreapp2.1\Manager.csproj.CopyComplete
+C:\Measurement\Manager\obj\Debug\netcoreapp2.1\Manager.dll
+C:\Measurement\Manager\obj\Debug\netcoreapp2.1\Manager.pdb
+C:\Measurement\Manager\obj\Debug\netcoreapp2.1\Manager.genruntimeconfig.cache

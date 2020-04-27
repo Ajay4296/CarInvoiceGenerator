@@ -6,8 +6,8 @@ namespace Manager
 {
     public interface ILengthManager
     {
-      public  double FeetToInche(double feet);
+       double FeetToInche(double feet);
 
-       public double IncheToFeet(double inch);
+       double IncheToFeet(double inch);
     }
 }

@@ -6,14 +6,15 @@ namespace Repository
 {
    public class WeightRepository : IWeightRepository
     {
-        public double GramToKg(double gram)
+        public double KgToGram(double kg)
         {
-            return gram / 1000;
+            return kg * 1000;
+        }
+        public double GramToKg(double gm)
+        {
+            return gm / 1000;
         }
 
-        public double KgToGram(double kilogram)
-        {
-            return kilogram * 1000;
-        }
+       
     }
 }

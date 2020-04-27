@@ -6,8 +6,9 @@ namespace Repository
 {
    public interface IWeightRepository
     {
-        double GramToKg(double gm);
         double KgToGram(double kg);
+        double GramToKg(double gm);
+        
        
     }
 }

@@ -8,5 +8,6 @@ namespace Repository
     {
         double CelciusToFarenhite(double celcius);
         double FarenhiteToCelcius(double fahrenheit);
+        
     }
 }

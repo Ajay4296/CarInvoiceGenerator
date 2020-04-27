@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
+using Manager;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
@@ -11,9 +12,9 @@ namespace WebApplication1.Controllers
     [Route("api/[controller]")]
     public class LengthController : Controller
     {
-        private ILengthConvertor lengthConvertor;
+        private ILengthManager lengthConvertor;
 
-        public LengthController(ILengthConvertor length)
+        public LengthController(ILengthManager length)
         {
             this.lengthConvertor = length;
         }
