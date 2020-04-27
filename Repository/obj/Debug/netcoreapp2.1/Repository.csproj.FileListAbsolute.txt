@@ -3,7 +3,6 @@ C:\Measurement\Repository\bin\Debug\netcoreapp2.1\Repository.runtimeconfig.json
 C:\Measurement\Repository\bin\Debug\netcoreapp2.1\Repository.runtimeconfig.dev.json
 C:\Measurement\Repository\bin\Debug\netcoreapp2.1\Repository.dll
 C:\Measurement\Repository\bin\Debug\netcoreapp2.1\Repository.pdb
-C:\Measurement\Repository\obj\Debug\netcoreapp2.1\Repository.csprojAssemblyReference.cache
 C:\Measurement\Repository\obj\Debug\netcoreapp2.1\Repository.csproj.CoreCompileInputs.cache
 C:\Measurement\Repository\obj\Debug\netcoreapp2.1\Repository.AssemblyInfoInputs.cache
 C:\Measurement\Repository\obj\Debug\netcoreapp2.1\Repository.AssemblyInfo.cs
