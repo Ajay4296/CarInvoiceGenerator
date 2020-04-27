@@ -8,15 +8,19 @@ namespace Manager
    public class TempManager : ITempManager
     {
         private readonly ITempRepository repo;
-      public  double CelciusToFarenhite(double celcius)
+        public TempManager(ITempRepository repo)
         {
-            return repo.CelciusToFarenhite(celcius);
+            this.repo = repo;
+        }
+        public  double CelciusToFarenhite(double celcius)
+        {
+            return this.repo.CelciusToFarenhite(celcius);
 
         }
 
       public  double FarenhiteToCelcius(double Farenhite)
         {
-            return repo.FarenhiteToCelcius(Farenhite);
+            return this.repo.FarenhiteToCelcius(Farenhite);
         }
     }
 }
