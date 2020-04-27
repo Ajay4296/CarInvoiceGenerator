@@ -74,7 +74,7 @@ namespace WebApplication1
             {
                 app.UseHsts();
             }
-            app.UseCors("AllowAll");
+           
             app.UseHttpsRedirection();
             app.UseMvc();
         }
