@@ -1,26 +1,29 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import { BrowserRouter, Route, Switch, withRouter } from 'react-router-dom';
+import Length from './Pages/Length';
+import Temprature from './Pages/Temprature';
+import Weight from './Pages/Weight';
+import { Navigation } from './Components/Navigation';
 
 function App() {
+  const Menu = withRouter(Navigation);
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className="optionColor">
+        <h1>Quantity Measurement</h1>
+        <BrowserRouter>
+        <Menu/>
+      <div>
+        <Switch>
+        <Route path='/Length' component={Length} exact />
+        <Route path='/Weight' component={Weight}  />
+        <Route path='/Temprature' component={Temprature} />
+        </Switch>
+      </div>
+    </BrowserRouter>  
+      </div>
     </div>
   );
 }
-
 export default App;
