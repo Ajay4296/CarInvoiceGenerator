@@ -30,9 +30,9 @@ namespace WebApplication1.Controllers
             /// <returns></returns>
             [Route("api/Converted_FarhenheithToCelsius")]
             [HttpGet]
-            public ActionResult<double> Converted_FarhenheithToCelsius(double F_value)
+            public ActionResult<double> Converted_FarhenheithToCelsius(double farenhite)
             {
-                return manager.FarenhiteToCelcius(F_value);
+                return manager.FarenhiteToCelcius(farenhite);
             }
 
             /// <summary>
@@ -42,9 +42,9 @@ namespace WebApplication1.Controllers
             /// <returns></returns>
             [Route("api/Converted_CelsiusToFahrenheith")]
             [HttpGet]
-            public ActionResult<double> Converted_CelsiusToFahrenheith(double C_value)
+            public ActionResult<double> Converted_CelsiusToFahrenheith(double Celcius)
             {
-                return manager.CelciusToFarenhite(C_value);
+                return manager.CelciusToFarenhite(Celcius);
             }
 
         }

@@ -694,11 +694,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Measurement\\Repository\\Repository.csproj",
+      "projectUniqueName": "C:\\Measurement Baekend\\Repository\\Repository.csproj",
       "projectName": "Repository",
-      "projectPath": "C:\\Measurement\\Repository\\Repository.csproj",
+      "projectPath": "C:\\Measurement Baekend\\Repository\\Repository.csproj",
       "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-      "outputPath": "C:\\Measurement\\Repository\\obj\\",
+      "outputPath": "C:\\Measurement Baekend\\Repository\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",

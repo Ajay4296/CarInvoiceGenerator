@@ -710,11 +710,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Measurement\\Manager\\Manager.csproj",
+      "projectUniqueName": "C:\\Measurement Baekend\\Manager\\Manager.csproj",
       "projectName": "Manager",
-      "projectPath": "C:\\Measurement\\Manager\\Manager.csproj",
+      "projectPath": "C:\\Measurement Baekend\\Manager\\Manager.csproj",
       "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-      "outputPath": "C:\\Measurement\\Manager\\obj\\",
+      "outputPath": "C:\\Measurement Baekend\\Manager\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -730,8 +730,8 @@
       "frameworks": {
         "netcoreapp2.1": {
           "projectReferences": {
-            "C:\\Measurement\\Repository\\Repository.csproj": {
-              "projectPath": "C:\\Measurement\\Repository\\Repository.csproj"
+            "C:\\Measurement Baekend\\Repository\\Repository.csproj": {
+              "projectPath": "C:\\Measurement Baekend\\Repository\\Repository.csproj"
             }
           }
         }

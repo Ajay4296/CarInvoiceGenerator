@@ -10,7 +10,7 @@ using Manager;
 namespace WebApplication1.Controllers
 {
     [Route("api/[controller]")]
-    public class LengthController : Controller
+    public class LengthController : ControllerBase
     {
         private ILengthManager lengthConvertor;
 

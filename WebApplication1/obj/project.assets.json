@@ -12747,11 +12747,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Measurement\\WebApplication1\\WebApplication1.csproj",
+      "projectUniqueName": "C:\\Measurement Baekend\\WebApplication1\\WebApplication1.csproj",
       "projectName": "WebApplication1",
-      "projectPath": "C:\\Measurement\\WebApplication1\\WebApplication1.csproj",
+      "projectPath": "C:\\Measurement Baekend\\WebApplication1\\WebApplication1.csproj",
       "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-      "outputPath": "C:\\Measurement\\WebApplication1\\obj\\",
+      "outputPath": "C:\\Measurement Baekend\\WebApplication1\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -12767,11 +12767,11 @@
       "frameworks": {
         "netcoreapp2.1": {
           "projectReferences": {
-            "C:\\Measurement\\Manager\\Manager.csproj": {
-              "projectPath": "C:\\Measurement\\Manager\\Manager.csproj"
+            "C:\\Measurement Baekend\\Manager\\Manager.csproj": {
+              "projectPath": "C:\\Measurement Baekend\\Manager\\Manager.csproj"
             },
-            "C:\\Measurement\\Repository\\Repository.csproj": {
-              "projectPath": "C:\\Measurement\\Repository\\Repository.csproj"
+            "C:\\Measurement Baekend\\Repository\\Repository.csproj": {
+              "projectPath": "C:\\Measurement Baekend\\Repository\\Repository.csproj"
             }
           }
         }

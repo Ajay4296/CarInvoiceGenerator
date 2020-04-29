@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Measurement\\Model\\Model.csproj": {}
+    "C:\\Measurement Baekend\\Model\\Model.csproj": {}
   },
   "projects": {
-    "C:\\Measurement\\Model\\Model.csproj": {
+    "C:\\Measurement Baekend\\Model\\Model.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Measurement\\Model\\Model.csproj",
+        "projectUniqueName": "C:\\Measurement Baekend\\Model\\Model.csproj",
         "projectName": "Model",
-        "projectPath": "C:\\Measurement\\Model\\Model.csproj",
+        "projectPath": "C:\\Measurement Baekend\\Model\\Model.csproj",
         "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-        "outputPath": "C:\\Measurement\\Model\\obj\\",
+        "outputPath": "C:\\Measurement Baekend\\Model\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",

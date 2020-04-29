@@ -10,3 +10,15 @@ C:\Measurement\Model\obj\Debug\netcoreapp2.1\Model.AssemblyInfo.cs
 C:\Measurement\Model\obj\Debug\netcoreapp2.1\Model.dll
 C:\Measurement\Model\obj\Debug\netcoreapp2.1\Model.pdb
 C:\Measurement\Model\obj\Debug\netcoreapp2.1\Model.genruntimeconfig.cache
+C:\Measurement Baekend\Model\bin\Debug\netcoreapp2.1\Model.deps.json
+C:\Measurement Baekend\Model\bin\Debug\netcoreapp2.1\Model.runtimeconfig.json
+C:\Measurement Baekend\Model\bin\Debug\netcoreapp2.1\Model.runtimeconfig.dev.json
+C:\Measurement Baekend\Model\bin\Debug\netcoreapp2.1\Model.dll
+C:\Measurement Baekend\Model\bin\Debug\netcoreapp2.1\Model.pdb
+C:\Measurement Baekend\Model\obj\Debug\netcoreapp2.1\Model.csprojAssemblyReference.cache
+C:\Measurement Baekend\Model\obj\Debug\netcoreapp2.1\Model.csproj.CoreCompileInputs.cache
+C:\Measurement Baekend\Model\obj\Debug\netcoreapp2.1\Model.AssemblyInfoInputs.cache
+C:\Measurement Baekend\Model\obj\Debug\netcoreapp2.1\Model.AssemblyInfo.cs
+C:\Measurement Baekend\Model\obj\Debug\netcoreapp2.1\Model.dll
+C:\Measurement Baekend\Model\obj\Debug\netcoreapp2.1\Model.pdb
+C:\Measurement Baekend\Model\obj\Debug\netcoreapp2.1\Model.genruntimeconfig.cache

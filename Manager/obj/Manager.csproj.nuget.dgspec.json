@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Measurement\\Manager\\Manager.csproj": {}
+    "C:\\Measurement Baekend\\Manager\\Manager.csproj": {}
   },
   "projects": {
-    "C:\\Measurement\\Manager\\Manager.csproj": {
+    "C:\\Measurement Baekend\\Manager\\Manager.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Measurement\\Manager\\Manager.csproj",
+        "projectUniqueName": "C:\\Measurement Baekend\\Manager\\Manager.csproj",
         "projectName": "Manager",
-        "projectPath": "C:\\Measurement\\Manager\\Manager.csproj",
+        "projectPath": "C:\\Measurement Baekend\\Manager\\Manager.csproj",
         "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-        "outputPath": "C:\\Measurement\\Manager\\obj\\",
+        "outputPath": "C:\\Measurement Baekend\\Manager\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -27,8 +27,8 @@
         "frameworks": {
           "netcoreapp2.1": {
             "projectReferences": {
-              "C:\\Measurement\\Repository\\Repository.csproj": {
-                "projectPath": "C:\\Measurement\\Repository\\Repository.csproj"
+              "C:\\Measurement Baekend\\Repository\\Repository.csproj": {
+                "projectPath": "C:\\Measurement Baekend\\Repository\\Repository.csproj"
               }
             }
           }
@@ -63,14 +63,14 @@
         }
       }
     },
-    "C:\\Measurement\\Repository\\Repository.csproj": {
+    "C:\\Measurement Baekend\\Repository\\Repository.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Measurement\\Repository\\Repository.csproj",
+        "projectUniqueName": "C:\\Measurement Baekend\\Repository\\Repository.csproj",
         "projectName": "Repository",
-        "projectPath": "C:\\Measurement\\Repository\\Repository.csproj",
+        "projectPath": "C:\\Measurement Baekend\\Repository\\Repository.csproj",
         "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-        "outputPath": "C:\\Measurement\\Repository\\obj\\",
+        "outputPath": "C:\\Measurement Baekend\\Repository\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
