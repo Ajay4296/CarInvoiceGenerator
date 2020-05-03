@@ -28,7 +28,7 @@ namespace WebApplication1
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-           /*services.AddCors(options =>
+           services.AddCors(options =>
             {
                 options.AddPolicy("AllowAll",
                     builder =>
@@ -39,7 +39,7 @@ namespace WebApplication1
                         .AllowAnyHeader()
                         .AllowCredentials();
                     });
-            });*/
+            });
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
 
             services.AddTransient<ILengthRepository, LengthRepository>();
@@ -72,14 +72,14 @@ namespace WebApplication1
             {
                 app.UseHsts();
             }
-            app.UseStaticFiles();
+           /* app.UseStaticFiles();
 
             app.UseMvc(routes =>
             {
                 routes.MapRoute(
                     name: "default",
                     template: "{controller=Home}/{action=Index}/{id?}");
-            });
+            });*/
             app.UseCors("AllowAll");
             app.UseHttpsRedirection();
             
