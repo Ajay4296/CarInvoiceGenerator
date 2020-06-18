@@ -21,13 +21,11 @@ namespace WebApplication1.Controllers
 
         [Route("api/InchToFeet")]
         [HttpGet]
-        public async Task<IActionResult> GetFeet(double inch)
+        public double GetFeet(double inch)
         {
-            var result = lengthConvertor.IncheToFeet(inch);
-            if (result != 0.0)
-                return Ok(result);
+            double result =lengthConvertor.IncheToFeet(inch);
+                return result;
 
-            return this.BadRequest();
         }
 
         [Route("api/FeetToInch")]
@@ -38,7 +36,7 @@ namespace WebApplication1.Controllers
             if (result != 0.0)
                 return Ok(result);
 
-            return this.BadRequest();
+            return this.BadRequest("Unable to process");
         }
     }
 }

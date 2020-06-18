@@ -6,6 +6,6 @@ namespace Model.LengthModel
 {
    public class FeetToInch
     {
-        public double feet { get; set; }
+        public double feet { get; set; } 
     }
 }

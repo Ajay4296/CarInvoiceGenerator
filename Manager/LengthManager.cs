@@ -14,11 +14,11 @@ namespace Manager
         }
       public  double FeetToInche(double feet)
         {
-            return repo.FeetToInche(feet);
+            return this.repo.FeetToInche(feet);
         }
       public  double IncheToFeet(double inch)
         {
-            return repo.IncheToFeet(inch);
+            return this.repo.IncheToFeet(inch);
         }
     }
 }

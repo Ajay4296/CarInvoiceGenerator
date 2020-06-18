@@ -32,7 +32,7 @@ namespace WebApplication1.Controllers
             [HttpGet]
             public ActionResult<double> Converted_FarhenheithToCelsius(double farenhite)
             {
-                return manager.FarenhiteToCelcius(farenhite);
+                return this.manager.FarenhiteToCelcius(farenhite);
             }
 
             /// <summary>
@@ -44,7 +44,7 @@ namespace WebApplication1.Controllers
             [HttpGet]
             public ActionResult<double> Converted_CelsiusToFahrenheith(double Celcius)
             {
-                return manager.CelciusToFarenhite(Celcius);
+                return this.manager.CelciusToFarenhite(Celcius);
             }
 
         }

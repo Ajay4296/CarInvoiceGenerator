@@ -16,11 +16,10 @@ namespace WebApplication1
         {
             CreateWebHostBuilder(args).Build().Run();
         }
-
         public static IWebHostBuilder CreateWebHostBuilder(string[] args) =>
-            WebHost.CreateDefaultBuilder(args)
-            .UseKestrel()
-             .UseIISIntegration()
-                .UseStartup<Startup>();
+           WebHost.CreateDefaultBuilder(args)
+           .UseKestrel()
+               .UseStartup<Startup>();
+
     }
 }
