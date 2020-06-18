@@ -48,7 +48,7 @@ import {InchToFeet,FeetToInch} from '../Components/Connection';
             <option value="Feet">feet</option>
             <option value="Inch">inch</option>
             </select>
-            
+             
             <div className="equal">=</div>
             <div>
                 <input type="number" className="input" value={this.state.result} />
@@ -59,7 +59,7 @@ import {InchToFeet,FeetToInch} from '../Components/Connection';
                 </select>
             </div>
              </div>       
-            )
+            );
         };
     }
 
