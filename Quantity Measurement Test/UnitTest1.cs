@@ -215,5 +215,13 @@ namespace Quantity_Measurement_Test
             int cel = 1;
             Assert.AreEqual(obj.ConversionOfCelciusToFahrenhite(cel), true);
         }
+        [Test]
+        public void Check_Conversion_of_Temprature1()
+        {
+            int Celcius = 1;
+            Temperature obj = new Temperature(Celcius);
+            int cel = 1;
+            Assert.AreEqual(obj.ConversionOfCelciusToFahrenhite(cel), true);
+        }
     }
 }
